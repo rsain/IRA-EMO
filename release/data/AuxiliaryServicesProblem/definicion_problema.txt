@@ -1,0 +1,105 @@
+Problem_Name
+testproblem_thesis
+
+Problem_Type
+Mixed
+
+Number_of_Real_Variables
+13
+
+Number_of_Integer_Variables
+20
+
+Number_of_Exogenous_Variables
+476
+
+Number_of_Objective_Functions
+3
+
+Number_of_Linear_Constraints
+0
+
+Number_of_Nonlinear_Constraints
+13
+
+Linear_Constraints_Matrix
+
+
+Real_Variables_Bounds
+0	56302	
+0	1211	
+0	1211	
+0	1127	
+0	1150	
+0	421	
+0	3653	
+0	3547	
+0	520	
+0	2634	
+0	1055	
+0	222	
+0	105	
+
+Integer_Variables_Bounds
+0	1	
+0	1	
+0	1	
+0	1	
+0	1	
+0	1	
+0	1	
+0	1	
+0	1	
+0	1	
+0	1	
+0	1	
+0	0	
+0	1	
+0	1	
+0	0	
+0	1	
+0	1	
+0	1	
+0	1	
+
+Linear_Constraints_Bounds
+
+
+Nonlinear_Constraints_Bounds
+<=	0
+<=	0
+<=	0
+<=	0
+<=	0
+<=	0
+<=	0
+<=	0
+<=	0
+<=	0
+<=	0
+<=	0
+<=	0
+
+Number_bits_integer_variables
+1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	
+
+Objective_Functions
+Max   f1
+Min   f2
+Max   f3
+
+Name_the_Variables:
+Yes
+
+Real_Variables_Name
+Q-TMV-1	Q-TLV-1	Q-TLV-2	Q-GMV-1	Q-GMV-2	Q-GMV-3	Q-GMV-4	Q-GMV-5	Q-GMV-6	Q-GMV-7	Q-GMV-8	Q-GLV-1	Q-GLV-2	\\ Real (continous) variables associated to the installation of capacitors to compensate for reactive power ("Q-"+(element name))
+
+Integer_Variables_Name
+M-GMV-1	M-GMV-2	M-GMV-3	M-GMV-4	M-GMV-5	M-GMV-6	M-GMV-7	M-GMV-8	M-GLV-1	M-GLV-2	V-GMV-1	V-GMV-2	V-GMV-3	V-GMV-4	V-GMV-5	V-GMV-6	V-GMV-7	V-GMV-8	V-GLV-1	V-GLV-2	\\ Binary variables associated to: (1) Replacement of current motors by high efficiency motors ("M-"+(element name)) and (2) VFD installation ("V-"+(element name))
+
+Name_the_Objective_Functions:
+Yes
+
+Objective_Functions_Name
+EnergySavings	Cost 	IRR
+
