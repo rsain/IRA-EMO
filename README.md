@@ -3,7 +3,7 @@ IRA-EMO is an interactive method using reservation and aspiration levels for evo
 
 IRA-EMO has been developed in Java using the NetBeans (https://netbeans.org/) Integrated Development Environment (IDE). It also uses jMetal 4 (http://jmetal.sourceforge.net/), a Java-based framework for multiobjective optimization, and Gnuplot (http://www.gnuplot.info/) to plot Pareto fronts. We include test problems from the ZDT, DTLZ, and WFG families, respectively, for which the number of objectives can vary between two and six. We also include a three-objective real-world optimization problem for the efficiency improvement of the auxiliary services of power plants. Please, note that this real-world problem only works on Windows system and some required files should be in C:\ (contact me if you need help).
 
-Next figure shows the Graphical User Interface (GUI) and usage of iWASFGA to solve the DTLZ2 test problem with five objective functions.
+Next figure shows the Graphical User Interface (GUI) and the usage of IRA-EMO to solve the DTLZ2 test problem with five objective functions.
 
 ![IRA-EMO's GUI](doc/screenshot.jpg)
 
