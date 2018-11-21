@@ -5,7 +5,7 @@ IRA-EMO has been developed in Java using the NetBeans (https://netbeans.org/) In
 
 Next figure shows the Graphical User Interface (GUI) and the usage of IRA-EMO to solve the DTLZ2 test problem with five objective functions.
 
-![IRA-EMO's GUI](doc/screenshot.jpg)
+![IRA-EMO's GUI](screenshot.jpg)
 
 Next, we explain each section of the GUI:
 
